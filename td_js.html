@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+	<style type="text/css">
+		input[type=checkbox] {margin: 0 6px;}
+		.well { padding: 2em; font-size:160%; background-color: #eee;}
+		.media {width: 100%;}
+		.pure-g > div {
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		}
+		.l-box {
+		    padding: 1em;
+		}
+		.sl-box {
+		    padding: 0.3em;
+		}
+		.slideshow	 { 
+			position: relative;
+		}
+		.slideshow > ul {
+			position: relative;
+			overflow:hidden;
+			min-height: 300px;
+		}
+		ul .slide-visible {
+			display: inline-block !important;
+		}
+		.slideshow li {
+			display:none;
+			position: absolute;
+		}
+		/*.slideshow li:first-child { display: inline-block;}*/
+		.arrow  { position: absolute; top: 50%; font-weight: bold; font-size: 20px; color: #eee; cursor: pointer;}
+
+		//.slide{display: none;}
+
+	</style>
+
+	<script src="td_js.js">
+
+		etape_1();
+		etape_2();
+		etape_3();
+		etape_4();
+		etape_5();
+		/*function etape_1(){
+			var image_list = document.getElementsByTagName("img");
+			var nbImage = image_list.length;
+
+			for (var i = 0; i < nbImage; i++){
+				var src = image_list[i].src;
+				console.log('image' + i + " : " + src);		
+
+			}
+		}
+
+		function etape_2(){
+			var section_list = document.getElementsByTagName("section");
+			var nbSection  = section_list.length;
+		}*/
+
+	</script>
+
+</head>
+<body>
+	<header class="l-box">
+		<h1>Consequuntur tenetur natus rem</h1>
+		<nav class="pure-menu pure-menu-open pure-menu-horizontal">
+		<ul>
+			<li><a href="test1">Lorem.</a></li>
+			<li><a href="test2">Aerius</a></li>
+			<li><a href="test3">Consequatur?</a></li>
+			<li><a href="">Repellendus.</a></li>
+		</ul>
+		</nav>
+	</header>
+
+	<div class="pure-g">
+
+		<div class="slideshow pure-u-5-5 l-box">
+			<ul>
+				<li class="slide slide-visible">
+					<img src="slide_1.png">
+				</li>
+				<li class="slide"><img src="slide_2.png" alt=""></li>
+				<li class="slide"><img src="slide_3.png" alt=""></li>
+			</ul>
+			<div class="arrow arrow-left">
+				&lt;
+			</div>
+		</div>
+		<div class="pure-u-3-5 l-box">
+
+			<div class="section well">
+				<h2>Lorem ipsum dolor.</h2>
+				<div class="content">
+					<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam nulla nisi voluptatem beatae consectetur illum odit et eaque iure ex!</div>
+					<div>Eos eum tenetur, doloremque a porro tempore voluptatibus ut odio cumque nemo, nostrum iste. Odio, in, aliquid. Quibusdam, magnam, quidem.</div>
+					<div>Molestiae perferendis fugit, ipsam iure, incidunt ratione amet quas blanditiis beatae dignissimos esse suscipit laudantium ad sunt! Ratione, dolores, totam.</div>
+				</div><!-- .content -->
+			</div><!-- .section -->	
+			<div class="section">
+				<h2>Lorem ipsum dolor.</h2>
+				<div class="pure-g">					<div class="pure-u-1-3">
+						<div class="sl-box">
+							<img src="smiley.png" alt="" class="media">
+						</div>
+						<div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate, repudiandae distinctio dolor vel ipsam excepturi assumenda voluptatum quisquam in veritatis cupiditate ab unde at porro nesciunt minima consequuntur maiores debitis est officiis, eveniet facere perspiciatis? Voluptatem architecto eius dolorem saepe illum, veniam nesciunt quidem. Ea excepturi accusantium, officiis alias.</div>
+					</div>
+					<div class="pure-u-1-3">
+						<div class="sl-box">
+							<img src="smiley.png" alt="" class="media">
+						</div>
+						<div class="content">Mollitia distinctio rem odit laudantium sunt, corporis officia itaque velit quibusdam in architecto ullam quasi fuga illum aliquid sapiente dolorum accusantium voluptate harum doloremque fugit magni quos. Adipisci saepe deleniti deserunt repudiandae consectetur, laudantium eos repellat ducimus, quas ea quam illo voluptatibus ratione assumenda porro numquam, inventore debitis quidem quae?</div>
+					</div>
+					<div class="pure-u-1-3">
+						<div class="sl-box">
+							<img src="smiley.png" alt="" class="media">
+						</div>
+						<div class="content">Voluptatem fuga illum ipsa iure sapiente a amet molestias pariatur maxime sequi fugit quis quidem odit odio debitis aliquid quia saepe ab culpa, officia nesciunt enim ex officiis, atque magnam. Error alias suscipit pariatur, vel dignissimos iure debitis a. Voluptas vero rem ea laboriosam ab, sit perferendis recusandae sed similique.</div>
+					</div>
+				</div>
+			</div><!-- .section -->
+			</div><!-- .9 -->
+	
+		<div class="pure-u-2-5  l-box">
+			<aside>
+				
+				<div class="block aside-block">
+					<div class="block-header">
+						<h3>Lorem ipsum dolor.</h3>
+					</div>
+					<div class="block-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, placeat.</p>
+						<p>Eligendi pariatur praesentium aut nemo libero eius reiciendis consequatur nobis!</p>
+						<p>Unde neque ut expedita temporibus, facilis doloribus, aliquam laboriosam sit.</p>
+					</div>
+				</div>
+				<div class="block aside-block">
+					<div class="block-header">
+						<h3>Ullam, reprehenderit mollitia.</h3>
+					</div>
+					<div class="block-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, modi!</p>
+						<p>Excepturi possimus, inventore aspernatur rem deserunt ea accusamus ipsam autem!</p>
+						<p>Asperiores maiores expedita ut repellendus aut id, non corporis labore!</p>
+					</div>
+				</div>
+				<div class="block aside-block">
+					<div class="block-header">
+						<h3>Unde consectetur, vel.</h3>
+					</div>
+					<div class="block-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, necessitatibus.</p>
+						<p>Temporibus explicabo consequuntur omnis, mollitia dolorem voluptatibus porro dolores nemo.</p>
+						<p>Quasi beatae obcaecati voluptate, accusantium architecto quibusdam explicabo in libero!</p>
+					</div>
+				</div>
+				
+				<div class="block aside-block">
+					
+					<div class="block-header">
+						<h3>formulaire</h3>
+					</div>
+					
+					<div class="block-body">
+						<form action="" class="pure-form pure-form-stacked">
+							<fieldset>
+								<label for="field_1">field 1</label>
+								<input type="text" name="field_1" id="field_1" required>
+							</fieldset>
+							<fieldset>
+								<label for="field_2">field 2</label>
+								<input type="text" name="field_2" id="field_2" required>
+							</fieldset>
+							<fieldset>
+								<label for="field_3">field 3</label>
+								<input type="text" name="field_3" id="field_3" required>
+							</fieldset>
+							<fieldset>
+								<label for="field_4">field 4</label>
+								<input type="text" name="field_4" id="field_4" required></fieldset>
+							<fieldset>
+								<label for="field_5">field 5</label>
+								<input type="text" name="field_5" id="field_5" required></fieldset>
+							<fieldset>
+								<label for="choice_list">List</label>
+								<select name="choice_list" id="choice_list">
+									<option value="1i">value 1</option>
+									<option value="2i">value 2</option>
+									<option value="3i">value 3</option>
+								</select>
+							</fieldset>
+							<fieldset>
+								<label for="cb[]">Check boxes</label>
+								<input type="checkbox" value="cb_1" 	name="cb[]"><span>un</span>
+								<input type="checkbox" value="cb_2" name="cb[]"><span>deux</span>
+								<input type="checkbox" value="cb_3" name="cb[]"><span>trois</span>
+							</fieldset>
+							<p>
+								<a href="#" id="add-field-btn" class="pure-button">add field</a>
+								<a href="#" id="add-checkbox-btn" class="pure-button">add check box</a>
+								<a href="#" id="add-option-btn" class="pure-button">add option</a>
+							</p>
+							<button type="submit" class="pure-button pure-button-primary">Soumettre</button>
+						</form>
+					</div>
+				</div><!-- .Aside-block -->
+
+			</aside>
+		</div><!-- .3 -->
+	</div><!-- .g -->
+</body>
+</html>
+
+
+<!--
+
+etape_1
+récupérer les images dans un variable nommée "image_list"
+compter le nombre d'image
+écrire une boucle sur la liste d'image et récupérer la valeur de l'attribut "src"
+
+etape_2
+variable section_list qui récupére les eléments ayant la classe "section"
+compter le nb de section
+boucler sur la liste de section et afficher le nombre d'enfants de chaque section dans la console
+boucler sur la liste de section et afficher le texte du titre de second niveau
+
+
+etape_3
+evenement sur le titre de chaque lien du menu et faire afficher le texte du lien danas la console
+evenement sur le titre de chaque bloc dans la sidebar pour cacher reveler l'element "header-body"
+
+etape_4
+variable contenant  les elementq ayant la classe 'aside-block'
+afficher les titre de niveau 3 de chaque blocs trouvés
+créer un tableau :
+
+var array =  [];
+
+pour chaque blocs trouvés, cre un objet litéral comme suit
+
+var o =  {
+	"title" : "valeur de .block-header>h3",
+	'content': 'valeur de .block-body>p'
+}
+afficher le taleau dans la console
+
+
+
+etape_5
+compter le nombre de champs texte dans la formulaire
+pour chaqe chmaps texte, ajouter une valeur par défaut.
+recuperer la valeur du noeud texte de la premiere option de la liste déroulante
+selectionner la première option de la liste
+empecher la soumission du formulaire et vérifier si les champs sont valides
+
+-->
